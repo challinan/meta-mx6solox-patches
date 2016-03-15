@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Patient Monitor
+Comment=Medical Patient Monitor Demo
+Icon=heartbeat.png
+TryExec=/usr/bin/PatientMonitorDemo
+Exec=/usr/bin/PatientMonitorDemo
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GTK;AudioVideo;Audio;Player;
+X-MB-SingleInstance=true
