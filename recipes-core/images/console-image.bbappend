@@ -1,2 +1,3 @@
-IMAGE_INSTALL_append += " demo-master pmd-hamp misc-utils"
+# demo-master is the matrix multiplication MEL master demo app
+IMAGE_INSTALL_append += " demo-master pmd-master misc-utils"
 
