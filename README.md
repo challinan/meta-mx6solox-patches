@@ -14,4 +14,4 @@ This layer located in /scratch/sandbox/meta-mx6solox-patches
 
 Modify your build locations to suit your environment (at your peril!) :)
 
-
+Scripts to populate the sdcard (mksdboot_mx6q.sh) and a wrapper script (sdcard-setup.sh) are included in mel-conf-files.  If you use the same install locations as described above, these will just work.  Of course, you will have to adjust --device to point to your mmc device on your host.
