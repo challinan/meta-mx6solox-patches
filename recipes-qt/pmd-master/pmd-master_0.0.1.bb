@@ -7,7 +7,7 @@ DEPENDS = "qtbase"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
 # SRC_URI = "git:///scratch/sandbox/pmd-demo;protocol=file"
-SRC_URI = "git://github.com/challinan/meta-mx6solox-patches;branch=solox"
+SRC_URI = "git://github.com/challinan/pmd-demo;branch=solox"
 
 # Add supporting files: desktop launcher, systemd services
 SRC_URI += "file://pmd.desktop \
