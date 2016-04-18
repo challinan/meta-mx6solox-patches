@@ -24,13 +24,12 @@ index e5cc515..20c9584 100644
  	"boot_fdt=try\0" \
  	"ip_dyn=yes\0" \
  	"mmcdev="__stringify(CONFIG_SYS_MMC_ENV_DEV)"\0" \
-@@ -189,7 +189,8 @@
+@@ -189,7 +189,7 @@
  	"mmcroot=" CONFIG_MMCROOT " rootwait rw\0" \
  	"mmcautodetect=yes\0" \
  	"mmcargs=setenv bootargs console=${console},${baudrate} " \
 -		"root=${mmcroot}\0" \
 +		"root=${mmcroot} ${extrabootargs}\0" \
-+    "extrabootargs=mem=400M\0" \
  	"loadbootscript=" \
  		"fatload mmc ${mmcdev}:${mmcpart} ${loadaddr} ${script};\0" \
  	"bootscript=echo Running bootscript from mmc ...; " \
