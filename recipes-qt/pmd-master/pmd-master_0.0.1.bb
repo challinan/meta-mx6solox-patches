@@ -18,7 +18,7 @@ SRC_URI += "file://pmd.desktop \
             file://48x48_heartbeat.png \
             file://64x64_heartbeat.png"
 
-SRCREV = "6b4eb1d19f521e6ef7d76fd6ff48e46a82efb527"
+SRCREV = "82ae930e54b83e6db5d92c1a5f6aa8f7b0257d75"
 
 S = "${WORKDIR}/git"
 
